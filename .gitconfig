@@ -1,0 +1,9 @@
+[log]
+        date = iso-local
+[alias]
+        co = checkout
+        br = branch
+        st = status
+        sw = switch
+        lg = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+        lga = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s' --all
